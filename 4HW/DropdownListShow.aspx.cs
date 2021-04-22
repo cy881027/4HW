@@ -11,7 +11,6 @@ namespace _4HW {
         {
             if (ddl_Area.Items.Count == 0)
             {
-                ddl_Area.Items.Add("    ");
                 ddl_Area.Items.Add("北區");
                 ddl_Area.Items.Add("中區");
             }
@@ -28,10 +27,6 @@ namespace _4HW {
                 ddl_Place.Items.Add("苗栗");
                 ddl_Place.Items.Add("台中");
                 ddl_Place.Items.Add("南投");
-            }
-            else
-            {
-                ddl_Place.Items.Clear();
             }
         }
     }
